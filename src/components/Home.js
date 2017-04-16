@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
-import ImageGallery from 'react-image-gallery';
 import ImageContainer from './ImageContainer';
-import "react-image-gallery/styles/css/image-gallery.css";
-// import { Button } from 'reactstrap';
-// import './static/css/App.css';
 
 class Home extends Component {
   onClick(event) {
