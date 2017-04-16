@@ -17,6 +17,7 @@ class Products extends Component {
       case '/CatProducts': petDatas = catProducts;break;
       case '/DogProducts': petDatas = dogProducts;break;
     }
+    
     return (
       <div className="homeContainer">
         <div>
