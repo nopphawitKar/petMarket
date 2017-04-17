@@ -9,7 +9,7 @@ const cats = [
     'image': '/img/cats/shorthair/1.jpg',
     'owner': 'Manila farm',
     'description': 'She loves to eat tunas and she dont like milk.',
-    'isPet': true
+    'type': 'pet'
   },
   {
     'id': '2',
@@ -19,7 +19,7 @@ const cats = [
     'image': '/img/cats/shorthair/2.jpg',
     'owner': 'Supalak farm',
     'description': 'Old cat from thailand. he sleeps all the day.',
-    'isPet': true
+    'type': 'pet'
   },
   {
     'id': '3',
@@ -29,7 +29,7 @@ const cats = [
     'image': '/img/cats/shorthair/3.jpg',
     'owner': 'Carpenter Nancy',
     'description': 'She is very cute but she loves to detroy my house. So please get her out of me.',
-    'isPet': true
+    'type': 'pet'
   },
   {
     'id': '4',
@@ -39,7 +39,7 @@ const cats = [
     'image': '/img/cats/shorthair/4.jpg',
     'owner': 'Lenon John',
     'description': "A rock-music cat. He always listen to rock-musics. Let's rock",
-    'isPet': true
+    'type': 'pet'
   },
   {
     'id': '5',
@@ -49,7 +49,7 @@ const cats = [
     'image': '/img/cats/shorthair/5.jpg',
     'owner': 'Tom room39',
     'description': 'Waffle loves to eat waffles and durians.',
-    'isPet': true
+    'type': 'pet'
   },
 ];
 

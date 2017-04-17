@@ -12,6 +12,7 @@ import shortHairedCats from './data/shortHairedCats';
 import longHairedCats from './data/longHairedCats';
 import catProducts from './data/catProducts';
 import dogProducts from './data/dogProducts';
+import articles from './data/articles';
 
 const routes = (
   <Route path="/" component={App}>
@@ -22,6 +23,8 @@ const routes = (
     <Route path="LongHairedCats" component={Products} data={longHairedCats}/>
     <Route path="DogProducts" component={Products} data={dogProducts}/>
     <Route path="CatProducts" component={Products} data={catProducts}/>
+    <Route path="CatProducts" component={Products} data={catProducts}/>
+    <Route path="Articles" component={Products} data={articles}/>
   </Route>
 );
 

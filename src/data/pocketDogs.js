@@ -9,7 +9,7 @@ const dogs = [
     'image': '/img/dogs/pocket/1.jpg',
     'owner': 'Kantana farm',
     'description': "He's super start dog.",
-    'isPet': true
+    'type': 'pet'
   },
   {
     'id': '2',
@@ -19,7 +19,7 @@ const dogs = [
     'image': '/img/dogs/pocket/2.jpg',
     'owner': 'Usumaki farm',
     'description': "Let's play with him all the times.",
-    'isPet': true
+    'type': 'pet'
   },
   {
     'id': '3',
@@ -29,7 +29,7 @@ const dogs = [
     'image': '/img/dogs/pocket/3.jpg',
     'owner': 'Possible farm',
     'description': "Don't let her out of the house. She will dissapear forever.",
-    'isPet': true
+    'type': 'pet'
   },
   {
     'id': '4',
@@ -39,7 +39,7 @@ const dogs = [
     'image': '/img/dogs/pocket/4.jpg',
     'owner': 'ABC farm',
     'description': "She is aggressive dog.",
-    'isPet': true
+    'type': 'pet'
   },
   {
     'id': '5',
@@ -49,7 +49,7 @@ const dogs = [
     'image': '/img/dogs/pocket/5.jpg',
     'owner': 'Amp PTU',
     'description': "Don't feed him with milk.",
-    'isPet': true
+    'type': 'pet'
   },
 ];
 

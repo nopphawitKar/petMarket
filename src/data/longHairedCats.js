@@ -9,7 +9,7 @@ const cats = [
     'image': '/img/cats/longhair/1.jpg',
     'owner': 'Princess farm',
     'description': 'Keep her in cold place.',
-    'isPet': true
+    'type': 'pet'
   },
   {
     'id': '2',
@@ -19,7 +19,7 @@ const cats = [
     'image': '/img/cats/longhair/2.jpg',
     'owner': 'Wanda Witch',
     'description': "Let's play with him all the times.",
-    'isPet': true
+    'type': 'pet'
   },
   {
     'id': '3',
@@ -29,7 +29,7 @@ const cats = [
     'image': '/img/cats/longhair/3.jpg',
     'owner': 'Bharatha farm',
     'description': "Don't let her out of the house. She will dissapear forever.",
-    'isPet': true
+    'type': 'pet'
   },
   {
     'id': '4',
@@ -39,7 +39,7 @@ const cats = [
     'image': '/img/cats/longhair/4.jpg',
     'owner': 'Lenon John',
     'description': "Khun-Ann love a clean place.",
-    'isPet': true
+    'type': 'pet'
   },
   {
     'id': '5',
@@ -49,7 +49,7 @@ const cats = [
     'image': '/img/cats/longhair/5.jpg',
     'owner': 'Aey Jirakorn',
     'description': 'Feed him with honey.',
-    'isPet': true
+    'type': 'pet'
   },
 ];
 

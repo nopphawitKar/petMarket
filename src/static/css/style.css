@@ -151,6 +151,10 @@ ul {
     height: 50px;
 }
 
+.moreDescription {
+    text-overflow: ellipsis;
+}
+
 /*.image-gallery-thumbnails{
     display: none;
 }*/
