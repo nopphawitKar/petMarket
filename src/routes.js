@@ -6,15 +6,22 @@ import App from './components/App';
 import Home from './components/Home';
 import Products from './components/Products';
 
+import pocketDogs from './data/pocketDogs';
+import largeDogs from './data/largeDogs';
+import shortHairedCats from './data/shortHairedCats';
+import longHairedCats from './data/longHairedCats';
+import catProducts from './data/catProducts';
+import dogProducts from './data/dogProducts';
+
 const routes = (
   <Route path="/" component={App}>
     <IndexRoute component={Home}/>
-    <Route path="PocketDogs" component={Products}/>
-    <Route path="LargeDogs" component={Products}/>
-    <Route path="ShortHairedCats" component={Products}/>
-    <Route path="LongHairedCats" component={Products}/>
-    <Route path="DogProducts" component={Products}/>
-    <Route path="CatProducts" component={Products}/>
+    <Route path="PocketDogs" component={Products} data={pocketDogs}/>
+    <Route path="LargeDogs" component={Products} data={largeDogs}/>
+    <Route path="ShortHairedCats" component={Products} data={shortHairedCats}/>
+    <Route path="LongHairedCats" component={Products} data={longHairedCats}/>
+    <Route path="DogProducts" component={Products} data={dogProducts}/>
+    <Route path="CatProducts" component={Products} data={catProducts}/>
   </Route>
 );
 

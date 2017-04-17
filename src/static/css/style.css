@@ -23,10 +23,11 @@ body{
 .footer div{
   float: left;
   width: 300px;
-
-  
   color: #888;
-  padding: 60px 0 40px 0;
+  /*padding: 60px 0 40px 0;*/
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
 }
 
 .footer div a{

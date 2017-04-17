@@ -9,19 +9,12 @@ import dogProducts from '../data/dogProducts';
 
 class Products extends Component {
   render() {
-  	var petDatas = shortHairedCats;
-  	switch (this.props.location.pathname) {
-      case '/PocketDogs': petDatas = pocketDogs;break;
-    	case '/LongHairedCats': petDatas = longHairedCats;break;
-      case '/LargeDogs': petDatas = largeDogs;break;
-      case '/CatProducts': petDatas = catProducts;break;
-      case '/DogProducts': petDatas = dogProducts;break;
-    }
-    
+  	var datas = this.props.route.data;
+
     return (
       <div className="homeContainer">
         <div>
-          {petDatas.map(data => {
+          {datas.map(data => {
             return <ProductBox key={data.id} data={data}/>
           })}
         </div>
