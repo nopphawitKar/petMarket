@@ -1,3 +1,8 @@
+Required software for run this project
+1) NodeJs v6.10.2LTS or later. You can download from this url (https://nodejs.org/en/)
+2) npm latest version (Normally no need to dowload because it come with Nodejs)
+3) Required operating system: Windows 7 or later
+
 How to use this project
 1) open cmd and cd to project directory
 2) run "npm install"
