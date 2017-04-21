@@ -7,7 +7,7 @@ import ArticleData from './ArticleData';
 class ProductBox extends Component {
   render() {
     return (
-      <div className="petBox">
+      <div className="petBox imgContainer animated zoomIn delay">
       	<img src={this.props.data.image} className="petBoxImage"/>
       	<Switch condition={this.props.data.type}>
 		  <Case value= "pet">

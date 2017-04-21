@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
+import ScrollEffect from 'react-scroll-effects';
 import ImageContainer from './ImageContainer';
+import Rating from 'react-rating';
+
 
 class Home extends Component {
   onClick(event) {

@@ -10,7 +10,7 @@ class NavBar extends React.Component{
         <div><Link to="/"><img src="/img/logo.jpg"/></Link></div>
         <div><Link to="/Articles" className="NavText">Articles</Link></div>
         <div><Link to="/" className="NavText">Pets&Products</Link></div>
-        <div><Link to="/" className="NavText">Gallery</Link></div>
+        <div><Link to="/Gallery" className="NavText">Gallery</Link></div>
       </div>
     )
   }
@@ -23,7 +23,7 @@ class Footer extends React.Component{
         <div>
           {contacts.map(data => {
             return(
-              <a href={data.url}>
+              <a href={data.url} key={data.id}>
                 <img className="contact" src={data.image}/>
               </a>
             ) 

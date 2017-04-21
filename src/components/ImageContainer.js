@@ -4,13 +4,14 @@ import { Link } from 'react-router';
 // import './static/css/App.css';
 
 class ImageContainer extends Component {
+
   render() {
     const src = this.props.src;
     const link = this.props.link;
     const cssClass = this.props.cssClass;
     return (
     <Link to={link}>
-      	<div className="imgContainer">
+      	<div ref="image" className="imgContainer animated fadeIn delay">
         	<img src={src} className={cssClass}/>
         	<div className="waterprint">{this.props.waterPrint}</div>
       	</div>

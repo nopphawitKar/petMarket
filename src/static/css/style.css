@@ -247,3 +247,13 @@ ul {
     display: none;
 }*/
 /*///////////////////////////////////*/
+
+.delay{
+    animation-duration: 1s !important;
+}
+
+.galleryImage{
+    width: 300px;
+    height: 300px;
+    padding-right: 5px;
+}

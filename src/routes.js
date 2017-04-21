@@ -5,6 +5,7 @@ import { Route, IndexRoute } from 'react-router'
 import App from './components/App';
 import Home from './components/Home';
 import Products from './components/Products';
+import Gallery from './components/Gallery';
 
 import pocketDogs from './data/pocketDogs';
 import largeDogs from './data/largeDogs';
@@ -13,6 +14,7 @@ import longHairedCats from './data/longHairedCats';
 import catProducts from './data/catProducts';
 import dogProducts from './data/dogProducts';
 import articles from './data/articles';
+import gallery from './data/gallery';
 
 const routes = (
   <Route path="/" component={App}>
@@ -25,6 +27,7 @@ const routes = (
     <Route path="CatProducts" component={Products} data={catProducts}/>
     <Route path="CatProducts" component={Products} data={catProducts}/>
     <Route path="Articles" component={Products} data={articles}/>
+    <Route path="Gallery" component={Gallery} data={gallery}/>
   </Route>
 );
 
