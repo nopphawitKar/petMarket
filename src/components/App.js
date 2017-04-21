@@ -9,6 +9,8 @@ class NavBar extends React.Component{
       <div className="Nav">
         <div><Link to="/"><img src="/img/logo.jpg"/></Link></div>
         <div><Link to="/Articles" className="NavText">Articles</Link></div>
+        <div><Link to="/" className="NavText">Pets&Products</Link></div>
+        <div><Link to="/" className="NavText">Gallery</Link></div>
       </div>
     )
   }
