@@ -7,7 +7,7 @@ How to use this project
 1) open cmd and cd to project directory
 2) run "npm install"
 3) run "npm run start-dev"
-4) open browser and go to "http://localhost:3000/".
+4) open browser and go to "http://localhost:3333/".
 
 How to run karma test
 1) you must have firefox browser(Now Karma has an issue on chrome so we will run karma on firefox until this issue is clear.)
