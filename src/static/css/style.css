@@ -60,7 +60,7 @@ body{
     margin-right: auto;
     overflow: auto;
     /* clear: both; */
-    /*text-align: center;*/
+    text-align: center;
 }
 .left{
     float: left;
