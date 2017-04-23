@@ -212,6 +212,7 @@ ul {
     border-radius: 25px;
     float: left;
     box-shadow: 10px 10px 5px #888888;
+    text-align: left;
 }
 
 .petBox div a{
